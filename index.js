@@ -14,6 +14,10 @@ function tailsNeverFails(){
   while(heads === false){
     var num = Math.random()
     if(num >= 0.5){
+      tails++
+    }else{
+      heads = true
+    }
   }
   
   return "You got " + tails + " tails in a row!"
