@@ -12,7 +12,7 @@ function tailsNeverFails(){
   heads = false;
   tails = 0;
   while(heads === false){
-    
+    var num = Math.random()
   }
   
   return "You got " + tails + " tails in a row!"
